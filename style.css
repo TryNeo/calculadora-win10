@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Microsoft Sans Serif';
+    src: url('/assets/fonts/Microsoft-Sans-Serif.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    /* Colores */
+    --opaque-blue:#004882;
+    --opaque-gray :#F2F2F2;
+    --font-base:'Microsoft Sans Serif';
+}
+
+/* Estilos generales */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+
+html{
+    background-color:var(--opaque-blue);
+
+}
+
+
+
+.calculadora{
+    display: block;
+    background-color: var(--opaque-gray);
+    font-family: var(--font-base);
+}
