@@ -29,8 +29,38 @@ html{
 
 
 
-.calculadora{
-    display: block;
-    background-color: var(--opaque-gray);
+.calculadora-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
     font-family: var(--font-base);
+    max-width:600px;
+    min-height: 620px;
+}
+
+.calculadora{
+    background-color: var(--opaque-gray);
+    width:350px;
+    height:580px;
+}
+
+
+.calculadora__header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.calculadora__title{
+    font-size: 13px;
+}
+
+.calculadora__closes{
+    display: flex;
+    justify-content:between;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
 }
