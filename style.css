@@ -85,3 +85,13 @@ html{
     font-size: 20px;
     padding-right: 20px;
 }
+
+
+.calculadora__results{
+    grid-column: 2/3;
+    text-align: right;
+    margin-top: 40px;
+    padding:10px;
+    font-size: 40px;
+    padding-right: 20px;
+}
